@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="科技小亮AGI的个人主页，展示AI模型测评、工具教程、产品拆解、开源实践与个人社媒平台。"
+    />
+    <title>科技小亮AGI | AI 内容实验室</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="主导航">
+        <a class="brand-mark" href="#top" aria-label="科技小亮AGI 首页">
+          <span class="brand-sigil">AGI</span>
+          <span>科技小亮AGI</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#channels">平台</a>
+          <a href="#works">作品</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-band">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="dot"></span>
+              AI 内容实验室
+            </div>
+            <h1>科技小亮AGI</h1>
+            <p class="hero-subtitle">
+              一个持续折腾 AI 工具、模型和内容创作工作流的人。
+            </p>
+            <p class="hero-text">
+              我会把热门 AI 模型、效率工具、开源项目和内容创作方法拿来实测，
+              用真实体验写成普通人也能看懂、能上手的内容。
+            </p>
+            <div class="hero-actions" aria-label="主要行动">
+              <a class="button button-primary" href="#works">
+                <span class="button-icon" aria-hidden="true">✎</span>
+                看实验记录
+              </a>
+              <a class="button button-ghost" href="#channels">
+                <span class="button-icon" aria-hidden="true">⌁</span>
+                关注频道
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-board" aria-label="内容实验室视觉区">
+            <div class="avatar-card paper-card">
+              <div class="avatar-frame image-slot" data-image="./public/images/avatar.png">
+                <span>头像</span>
+              </div>
+              <div>
+                <strong>AI 工具实测员</strong>
+                <p>模型观察 / 产品拆解 / 开源实践</p>
+              </div>
+            </div>
+
+            <div class="lab-illustration paper-card image-slot" data-image="./public/images/hero-lab.png">
+              <div class="lab-doodle" aria-hidden="true">
+                <span class="doodle-screen"></span>
+                <span class="doodle-note note-one">Qwen</span>
+                <span class="doodle-note note-two">Skill</span>
+                <span class="doodle-note note-three">Open</span>
+                <span class="doodle-flask"></span>
+              </div>
+              <span class="slot-label">hero-lab.png</span>
+            </div>
+
+            <div class="floating-sticker sticker-one">实测中</div>
+            <div class="floating-sticker sticker-two">能上手</div>
+          </div>
+        </section>
+
+        <section id="channels" class="section-band channels">
+          <div class="section-heading">
+            <span class="section-kicker">Find Me</span>
+            <h2>在这些地方找到我</h2>
+            <p>公众号是主要内容阵地，小红书和抖音用于分享更轻量的观察、笔记和短内容。</p>
+          </div>
+
+          <div class="channel-grid">
+            <article class="channel-card paper-card">
+              <div class="channel-icon">微</div>
+              <h3>公众号</h3>
+              <p>科技小亮AGI</p>
+              <div class="qrcode image-slot" data-image="./public/images/qrcode-wechat.png">
+                <span>二维码</span>
+              </div>
+            </article>
+
+            <article class="channel-card paper-card">
+              <div class="channel-icon">红</div>
+              <h3>小红书</h3>
+              <p>日常观点、工具笔记和内容创作观察。</p>
+              <a class="text-link" href="https://xhslink.com/m/AkgR8o2DqMM" target="_blank" rel="noreferrer">
+                打开主页
+              </a>
+            </article>
+
+            <article class="channel-card paper-card">
+              <div class="channel-icon">抖</div>
+              <h3>抖音</h3>
+              <p>短视频测评、AI 热点和快速体验。</p>
+              <a class="text-link" href="https://v.douyin.com/PHFy4zk2PkY/" target="_blank" rel="noreferrer">
+                打开主页
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <section id="works" class="section-band works">
+          <div class="section-heading">
+            <span class="section-kicker">Lab Notes</span>
+            <h2>我的内容实验记录</h2>
+            <p>把模型、产品、热点、教程和开源项目都拆开试一遍，再留下可复用的经验。</p>
+          </div>
+
+          <div class="filter-bar" aria-label="作品分类筛选">
+            <button class="filter-button is-active" type="button" data-filter="all">全部</button>
+            <button class="filter-button" type="button" data-filter="model">模型观察室</button>
+            <button class="filter-button" type="button" data-filter="product">产品拆解台</button>
+            <button class="filter-button" type="button" data-filter="story">热点故事板</button>
+            <button class="filter-button" type="button" data-filter="tool">工具教程架</button>
+            <button class="filter-button" type="button" data-filter="open">开源实践区</button>
+          </div>
+
+          <div class="work-grid" id="workGrid"></div>
+        </section>
+
+        <section id="contact" class="section-band contact">
+          <div class="contact-panel paper-card">
+            <div>
+              <span class="section-kicker">Contact</span>
+              <h2>一起做点有意思的 AI 内容</h2>
+              <p>
+                欢迎交流 AI 工具、模型测评、内容创作工作流、开源项目教程与合作选题。
+                联系方式可以之后替换成邮箱、微信二维码或商务合作入口。
+              </p>
+            </div>
+            <div class="contact-slots">
+              <div class="contact-slot image-slot" data-image="./public/images/qrcode-wechat.png">
+                <span>公众号二维码</span>
+              </div>
+              <a class="button button-primary" href="#channels">
+                <span class="button-icon" aria-hidden="true">＋</span>
+                先关注我
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
