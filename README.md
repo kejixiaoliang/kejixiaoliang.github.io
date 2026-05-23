@@ -24,6 +24,8 @@ public/images/covers/ai-voice.png
 public/images/covers/openclaw-wechat.png
 ```
 
+文章封面建议使用公众号常见横图比例 `2.35:1`，例如 `900x383`、`1200x511` 或更高分辨率的同等比例图片。
+
 ## 本地预览
 
 直接在浏览器打开 `index.html` 即可预览。
